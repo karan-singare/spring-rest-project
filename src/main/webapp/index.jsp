@@ -9,7 +9,10 @@
 <body>
   <h1>Wecome to Spring REST</h1>
 
-  <a href="${pageContext.request.ContextPath}/test/hello">Hello</a>
+  <a href="test/hello">Hello</a>
+  <br>
+  <a href="${pageContext.request.contextPath}/api/students">Get All Students</a>
+
 
 </body>
 </html>
